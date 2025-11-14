@@ -1,4 +1,436 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Layer5 News]]></title><description><![CDATA[Expect more from your infrastructure. Cloud native, open source software for your cloud native infrastructure and applications. Allowing developers to focus on business logic, not infrastructure concerns. Empowering operators to confidently run modern infrastructure.]]></description><link>https://layer5.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Nov 2025 01:05:28 GMT</lastBuildDate><item><title><![CDATA[Layer5 Launches Kanvas: A Collaborative Platform for Cloud Native Infrastructure]]></title><description><![CDATA[var _excluded = ["components"];
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Layer5 News]]></title><description><![CDATA[Expect more from your infrastructure. Cloud native, open source software for your cloud native infrastructure and applications. Allowing developers to focus on business logic, not infrastructure concerns. Empowering operators to confidently run modern infrastructure.]]></description><link>https://layer5.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 14 Nov 2025 16:32:53 GMT</lastBuildDate><item><title><![CDATA[Layer5 Debuts Enterprise Edition of Meshery for Configuring Kubernetes]]></title><description><![CDATA[var _excluded = ["components"];
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+/* @jsxRuntime classic */
+/* @jsx mdx */
+
+var _frontmatter = {
+  "title": "Layer5 Debuts Enterprise Edition of Meshery for Configuring Kubernetes",
+  "subtitle": "Enterprise-grade distribution of Meshery enables IT teams to visualize, design, and manage Kubernetes and cloud native environments",
+  "date": "2025-11-12 19:00:00 +0530",
+  "author": "The Newsroom",
+  "thumbnail": "./Layer5-Kanvas-Designer-img.png",
+  "darkthumbnail": "./Layer5-Kanvas-Designer-img.png",
+  "category": "Press Release",
+  "description": "Announced at KubeCon + CloudNativeCon North America 2025, Kanvas extends the Meshery framework with visual tools, collaborative workspaces, and role-based access control for managing Kubernetes environments",
+  "tags": ["Announcements", "Kanvas", "Meshery"],
+  "type": "News",
+  "presskit": "",
+  "resource": false,
+  "published": true
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = "wrapper";
+return function MDXContent(_ref) {
+  var components = _ref.components,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), mdx("hr", null), mdx(NewsWrapper, {
+    mdxType: "NewsWrapper"
+  }, mdx("p", null, mdx("strong", {
+    parentName: "p"
+  }, "ATLANTA, GA"), " \u2014 November 12, 2025 \u2014 ", mdx("a", {
+    parentName: "p",
+    "href": "https://layer5.io"
+  }, "Layer5"), " today announced the general availability of ", mdx("strong", {
+    parentName: "p"
+  }, "Kanvas"), ", an ", mdx("strong", {
+    parentName: "p"
+  }, "enterprise-grade distribution of the open source ", mdx("a", {
+    parentName: "strong",
+    "href": "https://meshery.io"
+  }, "Meshery")), " framework for declaratively managing Kubernetes environments."), mdx("p", null, "Announced at ", mdx("strong", {
+    parentName: "p"
+  }, "KubeCon + CloudNativeCon North America 2025"), ", Kanvas extends Meshery with additional graphical tools to visualize and edit infrastructure, including the ability to store ", mdx("strong", {
+    parentName: "p"
+  }, "design snapshots in GitHub repositories"), ". Built on top of Meshery, Kanvas introduces ", mdx("strong", {
+    parentName: "p"
+  }, "collaborative workspaces"), " that enable IT teams to design, share, and manage Kubernetes environments more efficiently. It also provides access to a ", mdx("strong", {
+    parentName: "p"
+  }, "catalog of hundreds of pre-built design patterns and reference architectures"), " that can be customized and extended."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Enterprise Features and Extensibility")), mdx("p", null, "Kanvas adds ", mdx("strong", {
+    parentName: "p"
+  }, "role-based access controls (RBAC)"), " and supports the import of existing Kubernetes manifests, Helm charts, Kustomize configurations, and Docker Compose files."), mdx("p", null, "Available for deployment by internal IT teams or as a ", mdx("strong", {
+    parentName: "p"
+  }, "managed service"), ", Kanvas provides a ", mdx("strong", {
+    parentName: "p"
+  }, "drag-and-drop interface"), " for designing and visualizing complex infrastructure and application architectures using Meshery."), mdx(BlockquoteAlt, {
+    quote: "Meshery provides a platform that fosters collaboration in a way that makes it simpler for IT teams to retain institutional knowledge. It allows engineers to see, collaborate on, and approve suggestions on a visual canvas, and even conduct a dry run to validate changes.",
+    person: "Lee Calcote",
+    title: "CEO, Layer5",
+    mdxType: "BlockquoteAlt"
+  }), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Introducing Kanvas Operator (Beta)")), mdx("p", null, "Layer5 is also making available, in beta, a ", mdx("strong", {
+    parentName: "p"
+  }, "Kanvas Operator"), " for managing live infrastructure in real time. The Operator extends the Meshery framework, which continues to be advanced under the auspices of the ", mdx("strong", {
+    parentName: "p"
+  }, "Cloud Native Computing Foundation (CNCF)"), ". This beta release expands Meshery\u2019s capabilities to operational control of live Kubernetes environments."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Improving Scalability and Knowledge Retention")), mdx("p", null, "Kanvas simplifies management of Kubernetes clusters at scale and makes it easier to onboard additional engineers. By combining visual design, collaboration, and dry-run validation, Kanvas helps reduce configuration errors and preserve institutional knowledge."), mdx("blockquote", null, mdx("p", {
+    parentName: "blockquote"
+  }, "\u201CAs the number of Kubernetes clusters in production continues to increase, the need for tools that simplify configuration and management is becoming more urgent,\u201D Calcote said. \u201CThere simply are not enough engineers to manage these clusters, so platforms like Kanvas help smaller teams manage complex environments more consistently.\u201D")), mdx("p", null, "Calcote added that while Kubernetes remains one of the most powerful and complex IT platforms, Kanvas and Meshery are designed to make it more accessible to a broader range of IT professionals."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Toward Broader Accessibility of Kubernetes")), mdx("p", null, "As Kubernetes adoption grows, many organizations are seeking ways to enable ", mdx("strong", {
+    parentName: "p"
+  }, "IT administrators"), " to handle day-to-day management tasks traditionally performed by ", mdx("strong", {
+    parentName: "p"
+  }, "DevOps engineers"), ". According to Calcote, the goal is not to eliminate DevOps roles, but to ", mdx("strong", {
+    parentName: "p"
+  }, "make validated configurations reusable"), " so IT teams can safely manage environments at scale."), mdx("blockquote", null, mdx("p", {
+    parentName: "blockquote"
+  }, "\u201CIn effect, Meshery and Kanvas are making it simpler for IT teams to embrace ", mdx("em", {
+    parentName: "p"
+  }, "infrastructure by design"), " principles,\u201D Calcote said.")), mdx("p", null, "With workloads\u2014especially ", mdx("strong", {
+    parentName: "p"
+  }, "AI applications"), "\u2014continuing to grow, tools like Kanvas that operate at higher levels of abstraction will help organizations better manage Kubernetes environments and focus on application delivery rather than infrastructure complexity."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Availability")), mdx("p", null, mdx("strong", {
+    parentName: "p"
+  }, "Layer5 Kanvas"), " is available now for ", mdx("strong", {
+    parentName: "p"
+  }, "self-hosted deployment"), " or as a ", mdx("strong", {
+    parentName: "p"
+  }, "managed service"), ".", mdx("br", {
+    parentName: "p"
+  }), "\n", "Learn more at ", mdx("a", {
+    parentName: "p",
+    "href": "https://layer5.io/kanvas"
+  }, "https://layer5.io/kanvas"), "."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "About Meshery")), mdx("p", null, "Meshery is the open source, cloud native management plane that enables declarative configuration and collaborative operation of multi-cluster, multi-cloud Kubernetes environments. Hosted by the ", mdx("a", {
+    parentName: "p",
+    "href": "https://www.cncf.io/"
+  }, "Cloud Native Computing Foundation (CNCF)"), ", Meshery provides extensible, visual tooling for managing modern infrastructure. Learn more at ", mdx("a", {
+    parentName: "p",
+    "href": "https://meshery.io"
+  }, "https://meshery.io"), "."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "About Layer5")), mdx("p", null, "Layer5 helps organizations simplify the design, operation, and management of cloud native infrastructure. Home to the Meshery and Kanvas projects, Layer5\u2019s mission is to make managing Kubernetes environments more visual, collaborative, and efficient.", mdx("br", {
+    parentName: "p"
+  }), "\n", "Visit ", mdx("a", {
+    parentName: "p",
+    "href": "https://layer5.io"
+  }, "https://layer5.io"), " for more information.")));
+}
+;
+MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/layer5-debuts-enterprise-edition-of-meshery-for-configuring-kubernetes</link><guid isPermaLink="false">https://layer5.io/company/news/layer5-debuts-enterprise-edition-of-meshery-for-configuring-kubernetes</guid><dc:creator><![CDATA[The Newsroom]]></dc:creator><pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/d51507c39d2e8e8618e5fe51a8c368fc/Layer5-Kanvas-Designer-img.png" length="0" type="image/png"/><content:encoded></content:encoded></item><item><title><![CDATA[Layer5 Unveils Kanvas]]></title><description><![CDATA[var _excluded = ["components"];
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+/* @jsxRuntime classic */
+/* @jsx mdx */
+
+var _frontmatter = {
+  "title": "Layer5 Unveils Kanvas",
+  "subtitle": "The Enterprise Platform for 'Infrastructure as Design' and Collaborative Cloud Native Operations",
+  "date": "2025-11-11 08:00:00 -0530",
+  "author": "The Newsroom",
+  "thumbnail": "./Layer5-Kanvas-Designer.png",
+  "darkthumbnail": "./Layer5-Kanvas-Designer.png",
+  "category": "Press Release",
+  "description": "Empowering Platform and Operations Teams with Intuitive Tools to Design, Deploy, and Operate Kubernetes and Multi-Cloud Infrastructure",
+  "tags": ["Announcements", "Kanvas"],
+  "type": "News",
+  "presskit": "",
+  "resource": false,
+  "published": true
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = "wrapper";
+return function MDXContent(_ref) {
+  var components = _ref.components,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), mdx(NewsWrapper, {
+    mdxType: "NewsWrapper"
+  }, mdx("p", null, mdx("strong", {
+    parentName: "p"
+  }, "ATLANTA, GA"), " ", "-", " November 11th, 2025 \u2013 ", mdx("a", {
+    parentName: "p",
+    "href": "https://layer5.io"
+  }, "Layer5"), ", the company behind the popular ", mdx("a", {
+    parentName: "p",
+    "href": "https://meshery.io"
+  }, "Meshery"), " project, today announced the general availability (GA) of Kanvas. As an enterprise-grade distribution of Meshery, Kanvas is a critical platform engineering tool that unifies infrastructure design, operation, and collaboration for teams managing complex cloud native environments."), mdx("p", null, "Kanvas directly addresses the persistent challenges that platform engineers, SREs, and architects face: the unmanageable cognitive load of highly distributed systems, critical security gaps arising from mismanaged secrets and insecure network configurations, and fragmented workflows that silo teams and slow innovation."), mdx(BlockquoteAlt, {
+    quote: "The rise of AI is about to amplify that complexity tenfold as it brings an onslaught of suggested infrastructure changes from non-deterministic LLMs, whose inherent risk of hallucination only exacerbates the cognitive overload of engineers.",
+    person: "Lee Calcote",
+    title: "CEO of Layer5",
+    mdxType: "BlockquoteAlt"
+  }), mdx("p", null, "Kanvas functions as a \"Google Workspace for engineers,\" providing a unified, multi-modal collaboration suite built atop one of the Cloud Native Computing Foundation\u2019s (CNCF) most dynamic open source projects, Meshery. Kanvas also tackles the high cost of turnover by facilitating the retention of tribal knowledge and significantly reducing the time to productivity for new engineers by streamlining the onboarding process for shipping code and managing infrastructure."), mdx(Blockquote, {
+    quote: "Teams simply cannot be expected to approve a black box of LLM-generated changes. The way to safely harness the power of AI is to combat cognitive load \u2018head-on\u2019. This means visually representing *all* changes\u2014whether from a human or an AI\u2014in a way the mind can readily digest. A picture is worth a thousand words, as they say. In Kanvas, we call this 'infrastructure as design.'",
+    person: "Lee Calcote",
+    title: "CEO of Layer5",
+    mdxType: "Blockquote"
+  }), mdx("p", null, "Kanvas allows engineers to see, collaborate on, and approve suggestions on a visual canvas, and even perform 'dry runs' of their designs through GitOps-infused visual diffs ", mdx("em", {
+    parentName: "p"
+  }, "before"), " a single change is committed to production. ", mdx("a", {
+    parentName: "p",
+    "href": "https://docs.layer5.io/videos/getting-started/comments/design-reviews-full/"
+  }, "Peer reviews in Kanvas restore human oversight"), " and collaboration to an increasingly complex, AI-driven world."), mdx("hr", null), mdx("h2", null, "Kanvas has two powerful, integrated modes:"), mdx("ul", null, mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Kanvas Designer"), " (GA): Offers an intuitive, declarative, drag-and-drop interface for designing and visualizing complex infrastructure and application architectures.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Kanvas Operator"), " (beta): Provides an imperative, hands-on mode for managing and operating live infrastructure in real-time.")), mdx("p", null, "This dual-mode approach allows platform engineers to curate a catalog of design patterns, solution architects to design multi-cloud infrastructure, and SREs to collaborate on incident resolution, all within a single platform."), mdx("p", {
+    align: "center"
+  }, mdx("a", {
+    href: KanvasDesignerImage
+  }, mdx("img", {
+    src: KanvasDesignerImage,
+    alt: "Layer5 Kanvas Designer",
+    width: "100%",
+    className: "block-display align-center"
+  }))), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Driven by Community, Ready for the Enterprise")), mdx("p", null, "The power of Kanvas stems from its foundation in Meshery, which was recently recognized as the ", mdx("a", {
+    parentName: "p",
+    "href": "https://meshery.io/blog/sixth-highest-velocity-cncf-project"
+  }, "sixth highest-velocity project out of more than 240 projects"), " in the CNCF. This incredible momentum, driven by over 3,000 global contributors, underscores the platform's stability, rich feature set, and the vibrant community driving its innovation."), mdx(BlockquoteAlt, {
+    quote: "Kanvas has me rethinking how I approach interactions with team members. The ability to visually design, import existing Helm charts, and collaborate on changes in a single GitOps workflow might just eliminate my cross-team friction. Workspaces in Kanvas are my new Google Drive for infrastructure work.",
+    person: "Venil Noronha",
+    title: "Tech Lead at Stripe",
+    mdxType: "BlockquoteAlt"
+  }), mdx("p", null, "This enterprise readiness is further validated by the project's recent maturity, including ", mdx("a", {
+    parentName: "p",
+    "href": "https://meshery.io/blog/2025/meshery-ecosystem-expansion"
+  }, "a strategic governance shift to scale its growing ecosystem of extensions"), " and the ", mdx("a", {
+    parentName: "p",
+    "href": "https://www.cncf.io/blog/2025/10/27/announcing-the-certified-meshery-contributor-cmc/"
+  }, "launch of the new Certified Meshery Contributor (CMC) program"), "."), mdx("p", null, "Kanvas caters to a wide range of users, including:"), mdx("ul", null, mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Engineering teams and managers"), " for brainstorming, diagramming, wireframing, and interviewing.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Platform engineers"), " for underpinning self-service and developer empowerment.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Site reliability engineers"), " for curating a catalog of design patterns as a center of excellence, operators.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Solution architects"), " designing infrastructure across multiple cloud providers from a single canvas.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Developer advocates and educators"), " for facilitating real-time exploration and asynchronous study of any cloud native technology.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Developers and product engineers"), " for ease of understanding and of design of their application infrastructure.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "System integrators and consultants"), " for a service provider-grade organization hierarchy, multi-tenant, white-labelable, highly extensible delivery platform.")), mdx(Blockquote, {
+    quote: "Particularly as AI has entered our field, the trend of platform engineers leveraging Kubernetes Operators to automate application and infrastructure lifecycle management has grown stronger. What's exciting about Kanvas is how it builds on this evolution by introducing 'infrastructure as design'. This is an innovative abstraction that finally simplifies the underlying complexities we deal with daily\u2014like Kubernetes CRDs and Terraform modules. This approach is transformative; it empowers us to visually design, deploy, and manage our infrastructure with unprecedented ease and clarity.",
+    person: "Dhruv Sharma",
+    title: "Principal Platform Product Manager at GuideWire",
+    mdxType: "Blockquote"
+  }), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Key Features Now Generally Available:")), mdx("ul", null, mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Unified Visual Design & Operation"), ": Toggle between the declarative designer for visual architecture and the imperative Operator for live cluster management, including interactive terminals and live resource views.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "GitOps-Infused Workflows"), ": Go beyond basic integration with ", mdx("a", {
+    parentName: "li",
+    "href": "https://docs.layer5.io/cloud/tutorials/gitops-snapshots/"
+  }, "Kanvas Snapshots"), ", providing visual infrastructure diffs directly in GitHub pull requests.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Enterprise Identity & Governance"), ": Manage access with a robust hierarchy of Organizations, Teams, and Users governed by role-based access control (RBAC).  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Comprehensive Import Engine"), ": Visualize brownfield environments by importing existing Kubernetes manifests, Helm charts, Kustomize, and Docker Compose files into editable and deployable designs.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Collaborative Workspaces"), ": Utilize Workspaces (like a Google Drive for infrastructure) to organize designs, environments, and team access in one place.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Rich, Real-time Collaboration"), ": Work with teammates simultaneously, using visual whiteboarding tools and inline commenting to review designs.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Extensive Design Catalog"), ": Accelerate projects by leveraging a rich catalog of hundreds of pre-built, best-practice design patterns and modern reference architectures. This enables teams to adopt vetted configurations with one click, ensuring consistency and best practices from the start.  "), mdx("li", {
+    parentName: "ul"
+  }, mdx("strong", {
+    parentName: "li"
+  }, "Flexible Deployment"), ": Available as a fully managed service or as a self-hosted solution with support for white-labeling and custom domains.")), mdx("p", {
+    align: "center"
+  }, mdx("a", {
+    href: KanvasCatalogImage
+  }, mdx("img", {
+    src: KanvasCatalogImage,
+    alt: "Kanvas Catalog",
+    width: "100%",
+    className: "block-display align-center"
+  }))), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "Availability")), mdx("p", null, "Layer5 Kanvas is available today as both a self-hosted solution and a managed service. Get started by visiting ", mdx("a", {
+    parentName: "p",
+    "href": "https://kanvas.new"
+  }, "https://kanvas.new"), "."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "About Layer5")), mdx("p", null, "Layer5's mission is to simplify the adoption and operation of cloud native infrastructure, enabling organizations to innovate faster and engineers to do so collaboratively. Layer5\u2019s award-winning open source community has over 10,000 members. Visit ", mdx("a", {
+    parentName: "p",
+    "href": "https://layer5.io"
+  }, "https://layer5.io"), "."), mdx("hr", null), mdx("h2", null, mdx("strong", {
+    parentName: "h2"
+  }, "About Kanvas")), mdx("p", null, "Kanvas is a web-based, enterprise-grade collaboration platform that allows platform, operations, and development teams to create, review, and operate highly-detailed architecture diagrams of their cloud and cloud native infrastructure. Kanvas is the definitive tool for productive, collaborative infrastructure management. Learn more about Kanvas at ", mdx("a", {
+    parentName: "p",
+    "href": "https://layer5.io/kanvas"
+  }, "https://layer5.io/kanvas"), ".")));
+}
+;
+MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/layer5-unveils-kanvas</link><guid isPermaLink="false">https://layer5.io/company/news/layer5-unveils-kanvas</guid><dc:creator><![CDATA[The Newsroom]]></dc:creator><pubDate>Tue, 11 Nov 2025 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/72106b16d634bf9bfc689071f4aba4ce/Layer5-Kanvas-Designer.png" length="0" type="image/png"/><content:encoded></content:encoded></item><item><title><![CDATA[Meshery Ranks 6th Highest-Velocity Project in CNCF, Announces Major Governance Shift]]></title><description><![CDATA[var _excluded = ["components"];
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
+function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
+/* @jsxRuntime classic */
+/* @jsx mdx */
+
+var _frontmatter = {
+  "title": "Meshery Ranks 6th Highest-Velocity Project in CNCF, Announces Major Governance Shift",
+  "subtitle": "Implements a critical revision to its governance and organizational structure",
+  "date": "2025-11-05 08:00:00 -0530",
+  "author": "The Newsroom",
+  "thumbnail": "./sixth-highest-velocity-project-out-of-237-CNCF-projects.png",
+  "darkthumbnail": "./sixth-highest-velocity-project-out-of-237-CNCF-projects.png",
+  "category": "Press Release",
+  "description": "Riding top-tier CNCF velocity, Meshery unveils a new, expanded project structure at KubeCon to accelerate its 300+ community-driven integrations.",
+  "tags": ["Announcements", "Meshery"],
+  "type": "News",
+  "presskit": "",
+  "resource": false,
+  "published": true
+};
+var layoutProps = {
+  _frontmatter: _frontmatter
+};
+var MDXLayout = "wrapper";
+return function MDXContent(_ref) {
+  var components = _ref.components,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return mdx(MDXLayout, _extends({}, layoutProps, props, {
+    components: components,
+    mdxType: "MDXLayout"
+  }), mdx(NewsWrapper, {
+    mdxType: "NewsWrapper"
+  }, mdx("p", null, "[Austin, TX][KubeCon + CloudNativeCon]", " - November 5th, 2025 \u2013- ", mdx("a", {
+    href: "/meshery"
+  }, "Meshery"), ", the extensible cloud native management platform, today announced that it has achieved the status of the sixth highest-velocity project within the Cloud Native Computing Foundation (CNCF), a significant acceleration considering its Sandbox maturity level and position among 237 CNCF projects", mdx("sup", null, mdx("a", {
+    href: "#references"
+  }, "1")), ". This news precedes Meshery\u2019s robust presence at KubeCon + CloudNativeCon North America 2025 in Atlanta."), mdx("h2", null, "The Rocket Ship: Surging Velocity and Community Growth"), mdx("p", null, "Meshery\u2019s climb to the 6th highest-velocity project marks a rapid progression, jumping three ranks since its 9th-place announcement in April 2025. This trajectory reflects consistent growth, improving steadily from 33rd highest velocity in 2020-2021 to 6th by July 2025."), mdx(BlockquoteAlt, {
+    quote: "These achievements underscore the dedication of our global community and Meshery's growing impact in the cloud native ecosystem.",
+    person: "Sangram Rath",
+    title: "Meshery Maintainer",
+    mdxType: "BlockquoteAlt"
+  }), mdx("p", null, "These achievements underscore the dedication of our global community and Meshery's growing impact in the cloud native ecosystem."), mdx("p", null, "This momentum is sustained by Meshery\u2019s expanding global community, which now boasts more than 10,000 members. Over the past year, the project has seen a 350% increase in code commits, contributions from over 3,000 open source contributors, and has surpassed 10,000 GitHub stars."), mdx("p", {
+    align: "center"
+  }, mdx("a", {
+    href: sixthHighest
+  }, mdx("img", {
+    src: sixthHighest,
+    alt: "Meshery achieved the status of the sixth highest-velocity project within the Cloud Native Computing Foundation (CNCF).",
+    width: "100%",
+    className: "block-display align-center"
+  }))), mdx("p", null, "Meshery empowers DevOps, Platform, SRE, and Application teams by providing collaborative GitOps, distributed performance management, and a visual designer for deployments, simplifying cloud native infrastructure management and accelerating learning and experimentation across CNCF projects."), mdx("h2", null, "The Meshery Umbrella Expands: Strategic Partitioning for Scale"), mdx("p", null, "Driven by this high project velocity and growing complexity, Meshery maintainers have implemented a ", mdx("a", {
+    href: "https://meshery.io/blog/2025/meshery-ecosystem-expansion"
+  }, "critical revision to its governance and organizational structure"), ": the partitioning of its repositories into two distinct GitHub organizations. This strategic move aims to enhance modularity, scalability, and community engagement."), mdx("p", {
+    align: "center"
+  }, mdx("a", {
+    href: MesheryExtensionsLight
+  }, mdx("img", {
+    src: MesheryExtensionsLight,
+    alt: "This restructuring comes as Meshery celebrates a milestone of unprecedented growth.",
+    width: "100%",
+    className: "block-display align-center"
+  })), mdx("br", null), "This restructuring comes as Meshery celebrates a milestone of unprecedented growth."), mdx("p", null, "The new structure divides the ecosystem into:"), mdx("ol", null, mdx("li", {
+    parentName: "ol"
+  }, mdx("a", {
+    href: "https://github.com/meshery"
+  }, "github.com/meshery"), ": Dedicated to the core platform and foundational projects, including critical components like Meshery Operator and MeshSync. The core Meshery maintainers govern this organization, ensuring stability and alignment with CNCF standards."), mdx("li", {
+    parentName: "ol"
+  }, mdx("a", {
+    href: "https://github.com/meshery-extensions"
+  }, "github.com/meshery-extensions"), ": A dedicated, community-centric space for extensions, integrations, and tooling. This organization fosters community ownership, allows for rapid iteration on independent release cycles, and acts as an incubator for new ideas and less common cloud service providers.")), mdx(Blockquote, {
+    quote: "This new structure isn't just a response to our success; it's our strategy for scaling it.",
+    person: "Lee Calcote",
+    title: "Meshery Maintainer",
+    mdxType: "Blockquote"
+  }), mdx("p", null, "\"This incredible growth to the #6 highest velocity project in the CNCF is a testament to our amazing community,\" said Lee Calcote, Meshery maintainer. \"This new structure isn't just a response to our success; it's our strategy for scaling it. By partitioning into core and extensions, we are empowering our community to innovate faster than ever while ensuring a stable, robust platform for the enterprise.\""), mdx("p", null, "This scalable structure currently ", mdx("a", {
+    href: "https://meshery.io/integrations"
+  }, "supports over 300 out-of-the-box integrations"), " with Cloud and cloud nativ infrastructure, enabling seamless lifecycle, configuration, and performance management across multi-cluster and multi-cloud environments. This approach draws inspiration from successful, graduated CNCF projects for clear core vs. extensions distinction, team autonomy, and a working group-like model for governance."), mdx("h2", null, "A Commitment to Mentorship and Inclusion"), mdx("p", null, "Meshery\u2019s success is deeply rooted in its vibrant and inclusive community, evidenced by its leading role in mentorship programs:"), mdx("ul", null, mdx("li", {
+    parentName: "ul"
+  }, "#1 Most Popular Internship in the Linux Foundation: Meshery is the top choice for aspiring developers in the Linux Foundation\u2019s LFX Mentorship program, offering hands-on projects in areas like cloud service model relationships and end-to-end testing across Spring, Summer, and Fall terms."), mdx("li", {
+    parentName: "ul"
+  }, "Marquee Project in Google Summer of Code (GSoC): As a flagship participant in GSoC, Meshery provides mentees with opportunities to tackle real-world challenges in distributed systems, with projects for 2025 including support for Azure, shared workspaces, and kubectl plugins.")), mdx("p", null, "These initiatives embody a pay-it-forward mentality, where maintainers and MeshMates actively guide newcomers."), mdx(BlockquoteAlt, {
+    quote: "I've consistently been impressed by the top-tier cloud native talent coming from the Meshery community. It's clear that their focus on real-world challenges through programs like LFX Mentorship and GSoC isn't just building a high-velocity tool\u2014it's building high-velocity engineers ready to solve complex problems from day one.",
+    person: "Marcus Blom",
+    title: "Senior Technical Recruiter at Amazon Web Services (AWS)",
+    mdxType: "BlockquoteAlt"
+  }), mdx("h2", null, "Join Meshery at KubeCon + CloudNativeCon NA 2025"), mdx("p", null, "The Meshery project invites the community to ", mdx(Link, {
+    to: "/community/events/kubecon-cloudnativecon-north-america-2025",
+    mdxType: "Link"
+  }, "join its maintainers at KubeCon + CloudNativeCon NA 2025"), " in Atlanta from November 10th to 13th. Key sessions include:"), mdx("ul", null, mdx("li", {
+    parentName: "ul"
+  }, mdx("p", {
+    parentName: "li"
+  }, "Project Lightning Talk: Beyond YAML: Visualizing Kubernetes Ontologies With Meshery\nAttendees will learn how Meshery's intuitive visual interface, Kanvas, reduces cognitive load by aligning with users' mental models, making Kubernetes configuration less daunting.\nDate: November 10, 2025, 1:52 am - 1:57 pm EST")), mdx("li", {
+    parentName: "ul"
+  }, mdx("p", {
+    parentName: "li"
+  }, "Session: \"Do You Even Merge?\" - Welcome To Maintainers Life, Please Bring Snacks and Boundaries\nThis talk will share the human side of maintaining high-velocity CNCF projects, discussing how the team manages growth, prioritizes responsibilities, and uses governance structures like SIGs to scale.\nDate: November 12, 2025, 11:00 am - 11:30 am EST")), mdx("li", {
+    parentName: "ul"
+  }, mdx("p", {
+    parentName: "li"
+  }, "Contribfest: Dive Deep Into Extending Cloud Native Management with Meshery\nThis in-depth, hands-on session allows participants to understand and create Meshery Models - a blueprint characterizing managed resources and their relationships, enabling consistent infrastructure and workload deployment, management, and automation. No prior experience is needed.\nDate: November 13th, 2025, 1:45 pm - 3:00 pm EST"))), mdx("p", null, "Meshery invites developers, operators, and enthusiasts to try Meshery from the convenience of their web browser today at ", mdx("a", {
+    parentName: "p",
+    "href": "https://play.meshery.io"
+  }, "https://play.meshery.io"), " and be part of the movement that is redefining cloud native management."), mdx("h4", null, "About Meshery"), mdx("p", null, "Meshery is the open source, cloud native manager and extensible engineering platform that enables collaborative cloud native management. It accelerates learning and experimentation, empowering users to seamlessly handle lifecycle, configuration, and performance management across multi-cluster and multi-cloud environments. ", mdx("a", {
+    href: "https://meshery.io"
+  }, "Meshery"), " is a project hosted under the Cloud Native Computing Foundation (CNCF)."), mdx("h5", null, "About Layer5, Inc."), mdx("p", {
+    style: {
+      "fontSize": "1rem"
+    }
+  }, "Layer5 empowers organizations to confidently embrace the power of cloud native technologies through its open source and commercial products. The company\u2019s mission is to simplify the adoption and operation of cloud native infrastructure, enabling organizations to innovate faster and engineers to collaborate more effectively. Layer5\u2019s award-winning open source community includes more than 10,000 members. For more information, visit ", mdx(Link, {
+    to: "/",
+    mdxType: "Link"
+  }, "https://layer5.io")), mdx("a", {
+    id: "references"
+  }), mdx("h4", null, "References"), mdx("ol", null, mdx("li", {
+    parentName: "ol"
+  }, mdx("a", {
+    href: "https://docs.google.com/spreadsheets/d/116ZU_ltVkJip7G073ocULHxKhy4F1OgWjNjtZ1IPBWk/edit?gid=0#gid=0"
+  }, "Google Sheets \u2014 All CNCF Projects for Jan 2024\u2013Jan 2025")))));
+}
+;
+MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/meshery-ranks-6th-highest-velocity-project-in-cncf-announces-major-governance-shift</link><guid isPermaLink="false">https://layer5.io/company/news/meshery-ranks-6th-highest-velocity-project-in-cncf-announces-major-governance-shift</guid><dc:creator><![CDATA[The Newsroom]]></dc:creator><pubDate>Wed, 05 Nov 2025 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/409acc604106a93fbfb4e73072112c3b/sixth-highest-velocity-project-out-of-237-CNCF-projects.png" length="0" type="image/png"/><content:encoded></content:encoded></item><item><title><![CDATA[Layer5 Launches Kanvas: A Collaborative Platform for Cloud Native Infrastructure]]></title><description><![CDATA[var _excluded = ["components"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
@@ -843,11 +1275,7 @@ return function MDXContent(_ref) {
     href: "https://smp-spec.io/subscribe"
   }, "Community Newsletter")), mdx("li", null, mdx("a", {
     href: "https://discuss.layer5.io"
-  }, "Service Mesh Discussion Forum")), mdx("li", null, mdx("a", {
-    href: "https://twitter.com/smp_spec"
-  }, "Service Mesh Performance Twitter")), mdx("li", null, mdx("a", {
-    href: "https://www.linkedin.com/showcase/service-mesh-performance"
-  }, "Service Mesh Performance LinkedIn")), mdx("li", null, mdx("a", {
+  }, "Discussion Forum")), mdx("li", null, mdx("a", {
     href: "https://www.youtube.com/watch?v=_yrncjtPpg4&list=PL3A-A6hPO2INwi8A3NNClvdCxDoHa9NOU"
   }, "Service Mesh Performance YouTube")), mdx("li", null, mdx("a", {
     href: "https://smp-spec.io"
@@ -1001,155 +1429,4 @@ return function MDXContent(_ref) {
   }, "Both the Meshery and Service Mesh Performance (SMP) projects joined the Cloud Native Computing Foundation (CNCF) earlier this month at the Sandbox level.", mdx("p", null, "Meshery is a multiservice mesh management plane offering lifecycle, configuration, and performance management of service meshes and their workloads, while SMP is a standard for capturing and characterizing the details of infrastructure capacity, service mesh configuration, and workload metadata."), mdx("p", null, "When the projects first applied in April for inclusion, the Technical Oversight Committee (TOC) had one clarifying question for them: should they be combined with or aligned in some manner with the Service Mesh Interface (SMI) project?"), mdx("p", null, "Lee Calcote, founder of Layer5, the company partly behind both of the projects, explained that it was an alluring prospect for the CNCF, but that, for the time being at least, the projects would continue on their own separate paths."), mdx("p", null, "Calcote, who also serves as the chair of the Network special interest group (SIG) at the CNCF, said he then presented to the CNCF the following diagram, which shows the relation between the three projects. For the time being, he said, both SMI and SMP are \u201Crelatively younger projects, both of which still are figuring out what they want to be when they grow up,\u201D and may be considered for consolidation later on down the line, while Meshery has a larger focus than the two projects and will definitely be kept on its own."), mdx("p", null, "While the SMI works to define the broadest characteristics that could apply to something defined as a service mesh, looking for the lowest common denominator, Meshery works in the opposite direction, trying to accentuate the differences and strengths of the individual services meshes. SMP, meanwhile, is more of a specification and works to provide a common format for capturing and describing data around the performance of the service mesh itself."), mdx("p", null, "In comparison to SMI, Calcote said that \u201CSMP essentially just goes a lot deeper. Part of what is trying to address is this long-standing question \u2014 and it\u2019s a question that faces the people who are adopting a service mesh today, people who are adopting service mesh tomorrow, people who have already adopted a service mesh \u2014 What should I be measuring to consider how efficiently I\u2019m running my service mesh?\u201D"), mdx("p", null, "Between the three projects, then, users have not just a way to interface with any SMI-compatible service mesh via a common API, but also a way to measure the performance of different service meshes, and finally, a method with which to interface with and operate those service meshes while taking advantage of their specific advantages."), mdx("p", null, "\u201CPart of the belief is that service meshes are an inevitable new layer in your cloud native infrastructure that over time will be a ubiquitous component,\u201D said Calcote. \u201CThere\u2019s a lot that can be done in the network, a lot of intelligence, and so Meshery, as a management plane, picks off some of those features.\u201D")));
 }
 ;
-MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/cncf-projects-bring-service-mesh-interoperability-benchmarks</link><guid isPermaLink="false">https://layer5.io/company/news/cncf-projects-bring-service-mesh-interoperability-benchmarks</guid><dc:creator><![CDATA[The New Stack]]></dc:creator><pubDate>Sat, 24 Jul 2021 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/1b1b219f5ff2ed23523b02bd172f4c07/The-New-Stack-Logo.svg" length="0" type="image/svg+xml"/><content:encoded></content:encoded></item><item><title><![CDATA[5 Lesser-Known, But Extremely Powerful Kubernetes Service Mesh Tools]]></title><description><![CDATA[var _excluded = ["components"];
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
-function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
-/* @jsxRuntime classic */
-/* @jsx mdx */
-
-var _frontmatter = {
-  "title": "5 Lesser-Known, But Extremely Powerful Kubernetes Service Mesh Tools",
-  "subtitle": "",
-  "date": "2021-06-18 12:15:05 +0000",
-  "author": "TechGenix",
-  "category": "Coverage",
-  "thumbnail": "./kubernetes-with-mesh-tools.webp",
-  "darkthumbnail": "./kubernetes-with-mesh-tools.webp",
-  "description": "Learn how these lesser-known yet powerful Kubernetes service mesh tools enhance service mesh interfaces and streamline management in Kubernetes environments",
-  "eurl": "https://techgenix.com/kubernetes-service-mesh-tools/",
-  "published": true,
-  "type": "News",
-  "technology": "Kubernetes",
-  "resource": true,
-  "redirect_from": ["/news/service-mesh-offers-promising-solution-for-cloud-native-networking/"]
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = "wrapper";
-return function MDXContent(_ref) {
-  var components = _ref.components,
-    props = _objectWithoutProperties(_ref, _excluded);
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: "MDXLayout"
-  }), mdx(NewsWrapper, {
-    mdxType: "NewsWrapper"
-  }, mdx("div", null, "DevOps teams use the right tools to automate deployment plans to minimize risk to the product and customer experience. These service mesh tools also provide synchronization with web communication standards, adapted to varying security protocols, and offer better management.", mdx("h2", null, "Here are some lesser-known Kubernetes service mesh tools:"), mdx("p", null, mdx("strong", {
-    parentName: "p"
-  }, "Autopilot:"), " Autopilot is a toolkit and SDK used for deploying and developing service mesh operators. It is developed by Solo.io, a service connectivity company. This service was launched in late-2019. The service allows its users to automate the service mesh interface for chaos experimentation, adaptive security, canary automation, and more."), mdx("p", null, mdx("strong", {
-    parentName: "p"
-  }, "Consul:"), " Consul, a service mesh solution, has a full-featured control plane. It was first released in 2014 and developed by HashiCorp. This service mesh can be installed and configured on an existing Kubernetes cluster. Its latest version is 1.9.5 that was released on April 15, 2021"), mdx("p", null, mdx("strong", {
-    parentName: "p"
-  }, "OSM:"), " Open Service Mesh (OSM) is an open-source service mesh created by Microsoft that supports the Kubernetes environment. It is a cloud-native service mesh that allows users to manage and secure service meshes consistently. It also offers out-of-the-box observability features for dynamic microservice environments."), mdx("p", null, mdx("strong", {
-    parentName: "p"
-  }, "Layer5:"), " Layer5 is a service mesh company and a worldwide community that offers a large collection of service mesh projects. The community creates and maintains several projects that focus on the service mesh-centric capabilities in a cloud-based environment.\nThe key projects operating under the Layer5 community include: ", mdx("inlineCode", {
-    parentName: "p"
-  }, "Meshery"), ", ", mdx("inlineCode", {
-    parentName: "p"
-  }, "Learn Layer5"), ", ", mdx("inlineCode", {
-    parentName: "p"
-  }, "Service Mesh Landscape"), ", ", mdx("inlineCode", {
-    parentName: "p"
-  }, "Image Hub"), ", ", mdx("inlineCode", {
-    parentName: "p"
-  }, "Meshery Operator"), ", ", mdx("inlineCode", {
-    parentName: "p"
-  }, "Service Mesh Interface Conformance"), ", and ", mdx("inlineCode", {
-    parentName: "p"
-  }, "NightHawk"), "."), mdx("p", null, mdx("strong", {
-    parentName: "p"
-  }, "Kuma:"), " Kuma is an open-source service mesh that provides support for multiple environments across clouds, such as Kubernetes and virtual machines. It was created by Kong, and it was recently added to CNCF as a Sandbox project. Moreover, Kuma is production-ready, and it is still under active development."))));
-}
-;
-MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/5-lesser-known-but-extremely-powerful-kubernetes-service-mesh-tools</link><guid isPermaLink="false">https://layer5.io/company/news/5-lesser-known-but-extremely-powerful-kubernetes-service-mesh-tools</guid><dc:creator><![CDATA[TechGenix]]></dc:creator><pubDate>Fri, 18 Jun 2021 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/43427f194c9f6f161811d46d58e960ba/kubernetes-with-mesh-tools.webp" length="0" type="image/webp"/><content:encoded></content:encoded></item><item><title><![CDATA[Service Mesh Offers Promising Solution for Cloud Native Networking]]></title><description><![CDATA[var _excluded = ["components"];
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
-function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
-/* @jsxRuntime classic */
-/* @jsx mdx */
-
-var _frontmatter = {
-  "title": "Service Mesh Offers Promising Solution for Cloud Native Networking",
-  "subtitle": "Service Mesh can be thought of as a next generation of Software Defined Networking (SDN) for the cloud. Here are the main approaches.",
-  "date": "2020-12-04 12:15:05 +0000",
-  "author": "Enterprise Networking Planet",
-  "category": "Coverage",
-  "thumbnail": "./service-mesh.webp",
-  "darkthumbnail": "./service-mesh.webp",
-  "eurl": "http://www.enterprisenetworkingplanet.com/datacenter/datacenter-blog/service-mesh-cloud-native-networking.html",
-  "description": "Discover the future of cloud-native networking with service mesh, a next-gen SDN for the cloud. Explore benefits like team decoupling and learn about key projects such as Linkerd, Istio, and NSM. Dive into service mesh abstraction with SMI and SMP for simplified interoperability and performance insights.",
-  "published": true,
-  "type": "News",
-  "product": "Service Mesh Performance",
-  "resource": true,
-  "technology": "Cloud",
-  "redirect_from": ["/news/service-mesh-offers-promising-solution-for-cloud-native-networking/"]
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = "wrapper";
-return function MDXContent(_ref) {
-  var components = _ref.components,
-    props = _objectWithoutProperties(_ref, _excluded);
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: "MDXLayout"
-  }), mdx(NewsWrapper, {
-    mdxType: "NewsWrapper"
-  }, mdx("div", null, mdx("p", null, "\"Cloud native\" doesn't just mean \"running in the cloud.\" It's a specific deployment paradigm and uses containers and an orchestration system (usually Kubernetes) to help provision, schedule, run and control a production workload in the cloud, or even across multiple clouds. Within cloud native deployments, an increasingly common approach to networking is the service mesh concept. With a service mesh, instead of each individual container requiring a full networking stack, a grouping of containers all benefit from a mesh that provides connectivity and networking with other containers as well as the outside world."), mdx("p", null, "Service mesh in the wild\nWhile the concept of a service mesh has applicability beyond just Kubernetes deployments, that's arguably where the vast majority of deployments are today. Among the earliest cloud-native service mesh approaches is the open source Linkerd project, which is backed by Buoyant and began to really ramp up adoption in 2017."), mdx("p", null, "Over the past three years there has been an explosion of open source service mesh technology. Layer5, which develops service mesh aggregation technology, currently tracks over 20 different open and closed source mesh projects. Beyond Linkerd, among the most popular is the Google-backed Istio project, which recently hit its 1.8 milestone release. Cisco has backed the Network Service Mesh (NSM) effort, which works at a lower level in the networking stack than Linkerd, Istio and most others."), mdx("p", null, "Each mesh has its own take on configuration and capabilities, which is a good thing for users. Simply put, there is no shortage of options and there is likely to be a service mesh that already exists to meet just about any need."), mdx("p", null, "Service mesh abstraction\nWhile having lots of different service mesh technologies is good for choice, it's not necessarily a good thing for simplicity or interoperability. That's where the concept of service mesh abstraction comes into play."), mdx("p", null, "At the recent KubeCon NA 2020 virtual event, Lee Calcote, co-chair of the Cloud Native Computing Foundation (CNCF) Networking Special Interest Group (SIG) and founder of Layer5, outlined how the different service mesh abstraction technologies fit together."), mdx("p", null, "The Service Mesh Interface (SMI) is a way for any compliant service mesh to plug into Kubernetes. The Service Mesh Performance (SMP) abstraction is all about providing visibility into service mesh performance though a common interface. The third key abstraction is known as Hamlet and it provides multi-vendor service interoperation and mesh federation capabilities."), mdx("p", null, "Service mesh benefits\nThere are a number of different benefits that service meshes can bring, which are helping to accelerate adoption. Calcote explained that with a service mesh there is a decoupling of developer and operations teams such that each can iterate independently."), mdx("p", null, "As such, operators can make changes to infrastructure independent of developers. DevOps is supposed to mean developer and operations teams work together, but the reality is often quite different and the ability to build application and infrastructure separately is why service mesh has been such a winning proposition for so many organizations."), mdx("p", null, "\"We live within a software defined network landscape, and service meshes in some respects are sort of a next-gen SDN,\" Calcote said."))));
-}
-;
-MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/service-mesh-offers-promising-solution-for-cloud-native-networking</link><guid isPermaLink="false">https://layer5.io/company/news/service-mesh-offers-promising-solution-for-cloud-native-networking</guid><dc:creator><![CDATA[Enterprise Networking Planet]]></dc:creator><pubDate>Fri, 04 Dec 2020 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/a2808ac8b497f7848fa6155fba8bb718/service-mesh.webp" length="0" type="image/webp"/><content:encoded></content:encoded></item><item><title><![CDATA[KubeCon+CloudNativeCon]]></title><description><![CDATA[var _excluded = ["components"];
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
-function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
-function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (-1 !== e.indexOf(n)) continue; t[n] = r[n]; } return t; }
-/* @jsxRuntime classic */
-/* @jsx mdx */
-
-var _frontmatter = {
-  "title": "KubeCon+CloudNativeCon",
-  "subtitle": "Service Mesh Battle Stories and Fixes",
-  "date": "2020-12-02 06:00:00 +0000",
-  "author": "The New Stack",
-  "category": "Coverage",
-  "thumbnail": "./service-mesh-implementations.webp",
-  "darkthumbnail": "./service-mesh-implementations.webp",
-  "eurl": "https://thenewstack.io/kubeconcloudnativecon-service-mesh-battle-stories-and-fixes/",
-  "description": "Discover insights from KubeCon+CloudNativeCon on service mesh implementations and best practices. Learn about the evolving landscape of service mesh options like Envoy, Istio, Linkerd, and Kuma. Explore the importance of interoperability and service mesh specifications, presented by Lee Calcote, founder of Layer5.",
-  "published": true,
-  "type": "News",
-  "product": "Service Mesh Performance",
-  "resource": true,
-  "redirect_from": ["/news/kubecon+cloudnativecon-service-mesh-battle-stories-and-fixes/"]
-};
-var layoutProps = {
-  _frontmatter: _frontmatter
-};
-var MDXLayout = "wrapper";
-return function MDXContent(_ref) {
-  var components = _ref.components,
-    props = _objectWithoutProperties(_ref, _excluded);
-  return mdx(MDXLayout, _extends({}, layoutProps, props, {
-    components: components,
-    mdxType: "MDXLayout"
-  }), mdx(NewsWrapper, {
-    mdxType: "NewsWrapper"
-  }, mdx("p", null, "As more organizations implement service meshes, they are finding what works and what needs more work, and they are creating new management practices around this knowledge. A few tried-and-tested best practices were detailed last month during KubeCon+CloudNativeCon."), mdx("p", null, "\u201CThere\u2019s a lot to say about each of these service meshes and how they work: their architecture, why they\u2019re made, what they\u2019re focused on, what they do when they came about and why some of them aren\u2019t here anymore and why we\u2019re still seeing new ones,\u201D Lee Calcote, founder of Layer5, explained during his talk entitled \u201CService Mesh Specifications and Why They Matter in Your Deployment.\u201D"), mdx("p", null, "Service mesh is increasingly seen as a requirement to manage microservices in Kubernetes environments, offering a central control plane to manage microservices access, testing, metrics and other functionalities. One-third of the respondents in The New Stack survey of our readers said their organizations already use service mesh. Among the numerous service mesh options available; Envoy, Istio, Linkerd and Kuma are but a few on offer."), mdx("h3", null, "Interoperability Is Key as Service Meshes Come and Go"), mdx("p", null, "Organizations will likely look to use at least more than one API service layer and service mesh for their clusters. This is why interoperability, and thus specifications, are critical for control planes as well. During his talk \u2014 \u201CService Mesh Specifications and Why They Matter in Your Deployment\u201D mentioned above \u2014 for example, Calcote, asked rhetorically:"), mdx("p", null, "\u201CHow many specifications, how many standards are there that have come to the rescue, so to speak, for understanding and interoperating with the various service meshes that are out there?\u201D Calcote said."), mdx("a", {
-    href: serviceMeshAbstractions
-  }, mdx("img", {
-    src: serviceMeshAbstractions,
-    alt: "service-mesh-abstractions",
-    width: "100%"
-  })), mdx("p", null, "A service mesh can be used for testing router performance, service latency and other variables. However, determining service mesh performance in an apples-to-apples way can be challenging. When studying \u201Cpublished results from some of the service meshes ", "[from providers]", " that do publish results about performance\u2026 what you\u2019ll find is that they\u2019re probably using an environment that isn\u2019t necessarily like yours,\u201D Calcote said. \u201CThey\u2019re also using different statistics and metrics to measure ", "[their service meshes]", " \u2026 and it doesn\u2019t help.\u201D"), mdx("a", {
-    href: serviceMeshPerformance
-  }, mdx("img", {
-    src: serviceMeshPerformance,
-    alt: "service-mesh-performance",
-    width: "100%"
-  })), mdx("p", null, "Service mesh performance (SMP) was created in an attempt to establish a way of comparing the performance of different services. \u201CThe SMP was born in combination with engaging with a few of those different service mesh maintainers and creating a standard way of articulating a performance of a mesh,\u201D Calcote said."), mdx("p", null, "Among the variables in consideration, in addition to the service mesh itself, include the number of clusters, workloads, the types of nodes, control plan configuration and the use of client libraries all affect performance."), mdx("p", null, "\u201CWhat costs more, what\u2019s more efficient and what\u2019s more powerful: These are all open questions that SMP assists in answering in your environment,\u201D Calcote said.")));
-}
-;
-MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/kubeconcloudnativecon</link><guid isPermaLink="false">https://layer5.io/company/news/kubeconcloudnativecon</guid><dc:creator><![CDATA[The New Stack]]></dc:creator><pubDate>Wed, 02 Dec 2020 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/3bbaf49e171ac3012bc61c5567dd6aed/service-mesh-implementations.webp" length="0" type="image/webp"/><content:encoded></content:encoded></item></channel></rss>
+MDXContent.isMDXComponent = true;]]></description><link>https://layer5.io/company/news/cncf-projects-bring-service-mesh-interoperability-benchmarks</link><guid isPermaLink="false">https://layer5.io/company/news/cncf-projects-bring-service-mesh-interoperability-benchmarks</guid><dc:creator><![CDATA[The New Stack]]></dc:creator><pubDate>Sat, 24 Jul 2021 00:00:00 GMT</pubDate><enclosure url="https://layer5.io/static/1b1b219f5ff2ed23523b02bd172f4c07/The-New-Stack-Logo.svg" length="0" type="image/svg+xml"/><content:encoded></content:encoded></item></channel></rss>
