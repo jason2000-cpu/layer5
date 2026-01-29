@@ -30,12 +30,15 @@ const NewcomersGuide = () => {
             development of projects at Layer5. Here are some instructions to get
             you started and if you haven’t joined yet, join the{" "}
             <a href="https://slack.layer5.io/" target="_blank" rel="noreferrer">
-              Slack workspace</a>{" "}
+              Slack workspace
+            </a>{" "}
             to collaborate with the community and the <a href="https://discuss.layer5.io" target="">discussion forum</a> for questions. Also, you can check the
-            quick-links below for jumping straight into things.</p>
+            quick-links below for jumping straight into things.
+          </p>
           <Row style={{
             flexWrap: "wrap"
-          }} className="newcomers-journey">
+          }} className="newcomers-journey"
+          >
             <Col
               className="heading"
               $sm={12}
@@ -67,7 +70,8 @@ const NewcomersGuide = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                community forum</a>{""}.
+                community forum
+              </a>{""}.
               Our{" "}
               <Link to="/community/meshmates">MeshMates</Link> and community
               members are here to help!
@@ -77,7 +81,8 @@ const NewcomersGuide = () => {
         <div className="instructions">
           <Row style={{
             flexWrap: "wrap"
-          }} className="step">
+          }} className="step"
+          >
             <Col $sm={12} $lg={6}>
               <h3>Fill in the Community Member Form</h3>
               <p>Help us get to know you, so that we can highlight projects and initiatives that align with your interests. Fill-in a community member form. Gain access to community resources.</p>
@@ -105,19 +110,19 @@ const NewcomersGuide = () => {
                   </a>{" "}
                   issues bearing the “
                   <a
-                    href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Alayer5labs+org%3Aservice-mesh-patterns+label%3A%22good+first+issue%22"
+                    href="https://github.com/layer5io/layer5/issues?q=state%3Aopen%20label%3A%22good%20first%20issue%22"
                     target="_blank"
                     rel="noreferrer"
                   >
                     good first issue
                   </a>
                   ” label, “
-                  <a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Alayer5labs+org%3Aservice-mesh-patterns+label%3A%22first-timers-only%22+">
+                  <a href="https://github.com/layer5io/layer5/issues?q=state%3Aopen%20label%3Afirst-timers-only">
                     first timers only
                   </a>
                   ” or the “
                   <a
-                    href="https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+org%3Alayer5io+org%3Ameshery+org%3Aservice-mesh-performance+org%3Alayer5labs+org%3Aservice-mesh-patterns++label%3A%22help+wanted%22+"
+                    href="https://github.com/layer5io/layer5/issues?q=state%3Aopen%20label%3A%22help%20wanted%22"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -142,7 +147,8 @@ const NewcomersGuide = () => {
           </Row>
           <Row style={{
             flexWrap: "wrap"
-          }} className="step">
+          }} className="step"
+          >
             <Col $sm={12} $lg={6}>
               <h3>Working on Your Issue</h3>
               <ol type="i">

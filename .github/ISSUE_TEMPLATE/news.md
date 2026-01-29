@@ -11,7 +11,7 @@ We're in the news! When this happens, we take a moment to reprint that news in o
 #### Task
 1. Create a copy of the [news template](https://github.com/layer5io/layer5/tree/master/src/collections/news/news-template/0000-00-00-news-title).
 1. Follow the instructions included in the news template and rename the new file after the title of the news article using lowercase, kebab casing.
-   1. Understand that this is a reprint request and that you are to copy/paste the published article verbatim. Be sure that you have included the filled in each of the front matter of properties. And have provided a hero image from the original article as well as that you use the original article authors name.
+   1. Understand that this is a reprint request and that you are to copy/paste the published article verbatim. Be sure that you have included the filled in each of the front matter of properties. And have provided a hero image from the original article as well as that you use the original article authors name. Use the `source_url` field to point to the original article for attribution.
 1. Please add the following article to [src/collections/news](https://github.com/layer5io/layer5/tree/master/src/collections/news):
 
 **Article:**
@@ -23,7 +23,7 @@ We're in the news! When this happens, we take a moment to reprint that news in o
 
 The layer5.io website uses Gatsby, React, and GitHub Pages. Site content is found under the [`master` branch](https://github.com/layer5io/layer5/tree/master).
 - 📚 See [contributing instructions](https://github.com/layer5io/layer5/blob/master/CONTRIBUTING.md).
-- 🎨 Wireframes and [designs for Layer5 site](https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/qJy1c95qirjgWQODApilR9)
+- 🎨 Wireframes and [designs for Layer5 site](https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs) in Figma [(open invite)](https://www.figma.com/team_invite/redeem/GvB8SudhEOoq3JOvoLaoMs)
 - 🙋🏾🙋🏼 Questions: [Discussion Forum](https://discuss.layer5.io) and [Community Slack](https://slack.layer5.io).
 
 <img src="https://raw.githubusercontent.com/layer5io/layer5/master/.github/assets/images/buttons/community.webp" height="22px" align="left" />Join the Layer5 Community by submitting your [community member form](https://layer5.io/newcomer).
